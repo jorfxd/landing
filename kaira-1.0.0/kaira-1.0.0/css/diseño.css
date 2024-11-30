@@ -1,16 +1,38 @@
 .custom-img {
-    width: 150px; /* Cambia el tamaño a 150px de ancho */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-right: 20px; /* Espacio entre las imágenes hacia la derecha */
-    padding: 5px; /* Espaciado interno si es necesario */
-  }
-  
-  .custom-img:last-child {
-    margin-right: 0; /* Evita margen adicional en la última imagen */
-  }
-  
-  .row {
-    display: flex; /* Alinea las imágenes en fila */
-    align-items: center; /* Centra verticalmente las imágenes */
-    justify-content: flex-start; /* Alinea las imágenes a la izquierda (cambiar según necesidad) */
-  }
+  width: 150px;
+  /* Cambia el tamaño a 150px de ancho */
+  height: auto;
+  /* Mantiene la proporción de la imagen */
+  margin-right: 20px;
+  /* Espacio entre las imágenes hacia la derecha */
+  padding: 5px;
+  /* Espaciado interno si es necesario */
+}
+
+.custom-img:last-child {
+  margin-right: 0;
+  /* Evita margen adicional en la última imagen */
+}
+
+.row {
+  display: flex;
+  /* Alinea las imágenes en fila */
+  align-items: center;
+  /* Centra verticalmente las imágenes */
+  justify-content: flex-start;
+  /* Alinea las imágenes a la izquierda (cambiar según necesidad) */
+}
+
+/* Cambiar el estilo de los enlaces cuando no están activos */
+.navbar-nav .nav-link {
+  color: rgb(109, 102, 102) !important;  /* Cambiar color de los enlaces no activos */
+}
+
+/* Fondo rojo oscuro cuando se pasa el ratón por encima de un enlace */
+.navbar-nav .nav-link:hover {
+  background-color: rgb(162, 157, 223); 
+}
+
+html {
+  scroll-behavior: smooth;
+}
