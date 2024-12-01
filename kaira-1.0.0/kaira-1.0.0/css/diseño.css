@@ -131,4 +131,13 @@ html {
 }
 /*fin de la Imagen del inicio */
 
-
+/*Novedades*/
+#Novedades {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/007/636/488/non_2x/sport-boxing-ring-background-free-vector.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Cambia el color del texto para que contraste con el fondo */
+  
+}
+/*Din de novedades*/
