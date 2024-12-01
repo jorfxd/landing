@@ -239,13 +239,16 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
+  <!--Encabezado-->
+  <nav class="navbar navbar-expand-lg bg-dark text-white text-uppercase fs-6 p-3 border-bottom align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center w-100">
 
+        <!-- Logo -->
         <div class="col-auto">
-          <a class="navbar-brand text-black" href="index.html" style="font-family: 'Gravitas One', sans-serif; font-size: 30px;">
-            Club Fight 
+          <a class="navbar-brand text-white" href="index.html"
+            style="font-family: 'Gravitas One', sans-serif; font-size: 30px;">
+            Club Fight
           </a>
         </div>
 
@@ -255,48 +258,38 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                 aria-label="Close"></button>
             </div>
-
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
-                <li class="nav-item dropdown">
-                  <a class="nav-link active" href="#inicio" id="dropdownHome" data-bs-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Inicio</a>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#inicio" id="dropdownHome">Inicio</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="#features py-5" id="dropdownShop" data-bs-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Novedades</a>
-                  
+                <li class="nav-item">
+                  <a class="nav-link" href="#features" id="dropdownShop">Novedades</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" id="dropdownBlog" data-bs-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Noticias</a>
-                  
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="dropdownBlog">Noticias</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="#" id="dropdownPages" data-bs-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Tienda</a>
-                 
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="dropdownPages">Tienda</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Paginas oficiales</a>
                 </li>
-            
               </ul>
             </div>
           </div>
         </div>
-
         <div class="col-3 col-lg-auto">
           <ul class="list-unstyled d-flex m-0">
             <li class="d-none d-lg-block">
-              <a href="index.html" class="text-uppercase mx-3">cuenta </a>
+              <a href="index.html" class="text-white mx-3">Cuenta</a>
             </li>
             <li class="d-lg-none">
               <a href="#" class="mx-2">
@@ -313,8 +306,8 @@
                 </svg>
               </a>
             </li>
-            <li class="search-box" class="mx-2">
-              <a href="#search" class="search-button">
+            <li class="search-box mx-2">
+              <a href="#search" class="search-button text-white">
                 <svg width="24" height="24" viewBox="0 0 24 24">
                   <use xlink:href="#search"></use>
                 </svg>
@@ -322,24 +315,25 @@
             </li>
           </ul>
         </div>
-
       </div>
-
     </div>
   </nav>
 
+  <!--inicio-->
   <section id="billboard" class="bg-light py-5">
     <section id="inicio">
       <div class="container">
-        <!-- Contenedor para texto e imágenes -->
+        
         <div class="row align-items-center mt-4">
-          <!-- Columna de texto -->
-          <div class="col-md-6 text-center text-light p-4" style="background-color: black;" data-aos="fade-up" data-aos-delay="300">
+         
+          <div class="col-md-6 text-center text-light p-4" style="background-color: black;" data-aos="fade-up"
+            data-aos-delay="300">
             <h1 class="section-title text-center mt-4 text-white" data-aos="fade-up">Descripción</h1>
-            <p>Este es una Página de noticias y curiosidades donde podrás encontrar diferentes datos sobre peleas.</p>
+            <p>Este es una Página de noticias y curiosidades donde podrás encontrar diferentes datos sobre peleas. 
+              Te mantenemos al tanto de las noticias más recientes, desde los resultados de las peleas más esperadas 
+              hasta las actualizaciones sobre entrenamientos. </p>
           </div>
-    
-          <!-- Columna de imágenes -->
+
           <div class="col-md-6 d-flex flex-column align-items-center p-4" style="background-color: white;">
             <img src="images/UFCLogo.png" alt="Logo de la UFC" class="img-fluid mb-3" style="max-width: 200px;">
             <img src="images/boxeoLogo.PNG" alt="Logo de boxeo" class="img-fluid" style="max-width: 200px;">
@@ -348,100 +342,29 @@
       </div>
     </section>
   </section>
-
-  <section class="features py-5">
-    <div class="container">
+  <!--Imagen del inicio-->
+  <section class="video py-5 overflow-hidden">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="0">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#calendar"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">Book An Appointment</h4>
-            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+        <div class="video-content open-up" data-aos="zoom-out">
+          <div class="video-bg">
+            <img src="https://phantom-marca.unidadeditorial.es/2821c38393745d45bf757592383647a1/resize/828/f/jpg/assets/multimedia/imagenes/2024/07/17/17211693034497.jpg"
+              alt="video" class="video-image img-fluid">
           </div>
-        </div>
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="300">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#shopping-bag"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">Pick up in store</h4>
-            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
-          </div>
-        </div>
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="600">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#gift"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">Special packaging</h4>
-            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
-          </div>
-        </div>
-        <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="900">
-          <div class="py-5">
-            <svg width="38" height="38" viewBox="0 0 24 24">
-              <use xlink:href="#arrow-cycle"></use>
-            </svg>
-            <h4 class="element-title text-capitalize my-3">free global returns</h4>
-            <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+          <div class="video-player">
+            <a class="youtube" href="https://www.youtube.com/watch?v=JuBBIJ7adjM">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <use xlink:href="#play"></use>
+              </svg>
+              <img src="images/text-pattern.png" alt="pattern" class="text-rotate">
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="categories overflow-hidden">
-    <div class="container">
-      <div class="open-up" data-aos="zoom-out">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="cat-item image-zoom-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/cat-item1.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-              </div>
-              <div class="category-content">
-                <div class="product-button">
-                  <a href="index.html" class="btn btn-common text-uppercase">Shop for men</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="cat-item image-zoom-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/cat-item2.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-              </div>
-              <div class="category-content">
-                <div class="product-button">
-                  <a href="index.html" class="btn btn-common text-uppercase">Shop for women</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="cat-item image-zoom-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/cat-item3.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-              </div>
-              <div class="category-content">
-                <div class="product-button">
-                  <a href="index.html" class="btn btn-common text-uppercase">Shop accessories</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
+  
 
   <section id="new-arrival" class="new-arrival product-carousel py-5 position-relative overflow-hidden">
     <div class="container">
@@ -581,6 +504,63 @@
                 nunc, lorem sit lorem urna, pretium aliquam ut. In vel, quis donec dolor id in. Pulvinar commodo mollis
                 diam sed facilisis at cursus imperdiet cursus ac faucibus sit faucibus sit libero.</p>
               <a href="#" class="btn btn-dark text-uppercase mt-3">Shop Collection</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--imagenes del boxeo-->
+  <section id="categories-section" class="categories overflow-hidden">
+    <div class="container">
+      <div class="open-up" data-aos="zoom-out">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="cat-item image-zoom-effect">
+              <div class="image-holder">
+                <a href="index.html" class="category-link">
+                  <img src="https://phantom-marca-mx.unidadeditorial.es/723dcc631bc14f515bd5a69f54489113/resize/828/f/jpg/mx/assets/multimedia/imagenes/2023/04/27/16825774387038.jpg" 
+                    alt="categories" class="product-image img-fluid">
+                </a>
+              </div>
+              <div class="category-content text-center">
+                <div class="product-button">
+                  <a href="index.html" class="btn btn-common text-uppercase">Garcia vs Davis</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="cat-item image-zoom-effect">
+              <div class="image-holder">
+                <a href="index.html" class="category-link">
+                  <img src="https://neilleifer.com/cdn/shop/products/1022.jpg?v=1658841620" 
+                    alt="categories" class="product-image img-fluid">
+                </a>
+              </div>
+              <div class="category-content text-center">
+                <div class="product-button">
+                  <a href="index.html" class="btn btn-common text-uppercase">Muhammad ali vs Frazier</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="cat-item image-zoom-effect">
+              <div class="image-holder">
+                <a href="index.html" class="category-link">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Sugar_Ray_Leonard%2C_Roberto_Duran_posing.jpg" 
+                    alt="categories" class="product-image img-fluid">
+                </a>
+              </div>
+              <div class="category-content text-center">
+                <div class="product-button">
+                  <a href="index.html" class="btn btn-common text-uppercase">Duran vs Leonard</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -728,25 +708,7 @@
     </div>
   </section>
 
-  <section class="video py-5 overflow-hidden">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="video-content open-up" data-aos="zoom-out">
-          <div class="video-bg">
-            <img src="images/video-image.jpg" alt="video" class="video-image img-fluid">
-          </div>
-          <div class="video-player">
-            <a class="youtube" href="https://www.youtube.com/embed/pjtsGzQjFM4">
-              <svg width="24" height="24" viewBox="0 0 24 24">
-                <use xlink:href="#play"></use>
-              </svg>
-              <img src="images/text-pattern.png" alt="pattern" class="text-rotate">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <section class="testimonials py-5 bg-light">
     <div class="section-header text-center mt-5">
@@ -1223,6 +1185,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="js/script.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/mio.js"></script>
 </body>
 
 </html>
