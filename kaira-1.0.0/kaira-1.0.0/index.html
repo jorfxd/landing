@@ -25,6 +25,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gravitas+One&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="css/diseño.css">
 </head>
@@ -268,10 +271,10 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#inicio" id="dropdownHome">Inicio</a>
+                  <a class="nav-link active" href="#billboard" id="dropdownHome">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#features" id="dropdownShop">Novedades</a>
+                  <a class="nav-link" href="#Novedades" id="dropdownShop">Novedades</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#" id="dropdownBlog">Noticias</a>
@@ -342,6 +345,7 @@
       </div>
     </section>
   </section>
+
   <!--Imagen del inicio-->
   <section class="video py-5 overflow-hidden">
     <div class="container-fluid">
@@ -351,18 +355,130 @@
             <img src="https://phantom-marca.unidadeditorial.es/2821c38393745d45bf757592383647a1/resize/828/f/jpg/assets/multimedia/imagenes/2024/07/17/17211693034497.jpg"
               alt="video" class="video-image img-fluid">
           </div>
+          
           <div class="video-player">
-            <a class="youtube" href="https://www.youtube.com/watch?v=JuBBIJ7adjM">
+            <a class="youtube" href="https://www.youtube.com/embed/JuBBIJ7adjM">
               <svg width="24" height="24" viewBox="0 0 24 24">
                 <use xlink:href="#play"></use>
               </svg>
-              <img src="images/text-pattern.png" alt="pattern" class="text-rotate">
+              <h1 id="textito">McGregor Vs. Khabib</h1>
+              <p id="tilin">Checa la pelea completa</p>
             </a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+ <!-- Novedades -->
+<section class="collection bg-light position-relative py-5" id="Novedades">
+  <div class="container">
+    <h2>Novedades</h2>
+    <div class="row">
+      <!-- Título Novedades en negrita -->
+      <div class="title-xlarge text-uppercase txt-fx domino fw-bold">Novedades</div>
+
+      <!-- Bootstrap Carousel -->
+      <div id="novedadesCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Primera diapositiva -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-6 column-container">
+                <div class="image-holder">
+                  <img src="https://cdn.vox-cdn.com/thumbor/aupdMtcT-JG_7yKFrs-vScm48Z0=/0x0:4278x3081/1200x800/filters:focal(1671x262:2355x946)/cdn.vox-cdn.com/uploads/chorus_image/image/72640147/1671063077.0.jpg"
+                    alt="strickland vs adesayaña" class="product-image img-fluid">
+                </div>
+              </div>
+              <div class="col-md-6 column-container bg-black">
+                <div class="collection-content p-5 m-0 m-md-5">
+                  <h3 class="element-title text-uppercase text-white">Nuevo Campeón!!</h3>
+                  <p>Durante el enfrentamiento del 10 de septiembre de 2023 entre Adesanya vs. Strickland en la UFC 293, Sean Strickland
+                    se consagró por sorpresa como el Nuevo Campeón.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Segunda diapositiva -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 column-container bg-black">
+                <div class="collection-content p-5 m-0 m-md-5">
+                  <h3 class="element-title text-uppercase text-white">Enfrentamiento de Leyendas</h3>
+                  <p>El combate entre manny pacquiao contra Floyd Mayweather es recordado por la mayoria
+                    de los fans de los deportes de contacto como uno de los mejores combates hechos en los ultimos años.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 column-container">
+                <div class="image-holder">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWF-sfIWnvUDnet6ORinceD3y_F74UoDGo5g&s"
+                    alt="lucha epica" class="product-image img-fluid">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <!-- Tercera diapositiva -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 column-container">
+                <div class="image-holder">
+                  <img src="https://phantom-expansion.unidadeditorial.es/2252918d2d037e55a85574e6013e3d7c/resize/640/assets/multimedia/imagenes/2022/11/07/16678300625338.jpg"
+                    alt="preparativos" class="product-image img-fluid">
+                </div>
+              </div>
+              <div class="col-md-6 column-container bg-black">
+                <div class="collection-content p-5 m-0 m-md-5">
+                  <h3 class="element-title text-uppercase text-white">Rivalidad de Campeones</h3>
+                  <p>Glovkin Conocido como triple G tuvo varios enfrentamientos contra "El canelo" Alvarez.
+                    De entre los cuales sus 3 peleas fueron reñidas y con resultados muy apretados.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cuarta diapositiva -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 column-container bg-black">
+                <div class="collection-content p-5 m-0 m-md-5">
+                  <h3 class="element-title text-uppercase text-white">Rumble in the Jungle</h3>
+                  <p>
+                    The Rumble in the Jungle («La pelea en la selva», en español) es un histórico
+                     combate de boxeo que tuvo lugar el 30 de octubre de 1974 en Kinsasa, Zaire. 
+                     La "Rumble in the Jungle" es recordada no solo por el evento deportivo en sí, sino por la lucha de Ali contra las adversidades físicas y sociales, 
+                     su resistencia estratégica frente a un oponente formidable, y el contexto político y cultural que la rodeó.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 column-container">
+                <div class="image-holder">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbA9seNOSx3XDP2CHr6Iu_Dy2S0xEghNZ4BA&s"
+                    alt="preparativos" class="product-image img-fluid">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Controles de navegación -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#novedadesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#novedadesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
   
   
 
@@ -486,30 +602,7 @@
     </div>
   </section>
 
-  <section class="collection bg-light position-relative py-5">
-    <div class="container">
-      <div class="row">
-        <div class="title-xlarge text-uppercase txt-fx domino">Collection</div>
-        <div class="collection-item d-flex flex-wrap my-5">
-          <div class="col-md-6 column-container">
-            <div class="image-holder">
-              <img src="images/single-image-2.jpg" alt="collection" class="product-image img-fluid">
-            </div>
-          </div>
-          <div class="col-md-6 column-container bg-white">
-            <div class="collection-content p-5 m-0 m-md-5">
-              <h3 class="element-title text-uppercase">Classic winter collection</h3>
-              <p>Dignissim lacus, turpis ut suspendisse vel tellus. Turpis purus, gravida orci, fringilla a. Ac sed eu
-                fringilla odio mi. Consequat pharetra at magna imperdiet cursus ac faucibus sit libero. Ultricies quam
-                nunc, lorem sit lorem urna, pretium aliquam ut. In vel, quis donec dolor id in. Pulvinar commodo mollis
-                diam sed facilisis at cursus imperdiet cursus ac faucibus sit faucibus sit libero.</p>
-              <a href="#" class="btn btn-dark text-uppercase mt-3">Shop Collection</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <!--imagenes del boxeo-->
   <section id="categories-section" class="categories overflow-hidden">
