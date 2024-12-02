@@ -51,24 +51,24 @@ html {
 }
 
 .navbar, .offcanvas {
-  background-color: black !important;  /* Fondo negro */
-  color: white !important;             /* Texto blanco */
+  background-color: black !important;  
+  color: white !important;           
 }
 
 .navbar-nav .nav-link {
-  color: white !important;             /* Texto blanco para los enlaces */
+  color: white !important;             
 }
 
 .navbar-nav .nav-link:hover {
-  color: lightgray !important;         /* Color claro al pasar el mouse */
+  color: lightgray !important;        
 }
 
 .navbar-brand {
-  color: white !important;             /* Blanco en el nombre del sitio */
+  color: white !important;           
 }
 
 .navbar-toggler-icon {
-  background-color: white !important;  /* Icono de toggle blanco */
+  background-color: white !important;  
 }
 
 /*Dieño para las imagenes de boxeo*/
@@ -133,11 +133,11 @@ html {
 
 /*Novedades*/
 #Novedades {
-  background-image: url(''); /*https://img.freepik.com/vector-gratis/fondo-degradado-ring-boxeo_23-2150746203.jpg*/
-  background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  color: white; /* Cambia el color del texto para que contraste con el fondo */
+  
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
   
 }
 /*Din de novedades*/
@@ -158,24 +158,18 @@ table.table .box-posicion {
 
 /*Novedades en ufc*/
 .seccion-gris {
-  max-width: 1200px; /* Limita el ancho para centrado */
-  margin: 0 auto; /* Centra el contenido */
-  background-color: #f0f0f0;; /* Fondo blanco interno */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 20px; /* Espaciado interno */
+  max-width: 1200px;
+  margin: 0 auto; 
+  background-color: #f0f0f0;
+  border-radius: 10px; 
+  padding: 20px; 
 }
 .contenedor {
-  background-color: #f0f0f0; /* Fondo gris */
-  padding: 20px; /* Espaciado interno */
+  background-color: #f0f0f0; 
+  padding: 20px; 
 }
 
-/*<div class="payment-option">
-              <span>Payment Option:</span>
-              <img src="images/visa-card.png" alt="card">
-              <img src="images/paypal-card.png" alt="card">
-              <img src="images/master-card.png" alt="card">
-            </div>
-          </div>*/
+
 
 /*tienda*/
 #tienda {
@@ -184,23 +178,23 @@ table.table .box-posicion {
 }
 
 .imagen-animada {
-  max-width: 100%;  /* La imagen no puede exceder el ancho del contenedor */
-  height: auto;  /* Mantiene la relación de aspecto de la imagen */
-  object-fit: contain;  /* Hace que la imagen se ajuste sin recortarse ni deformarse */
-  transition: transform 0.3s ease;  /* Animación suave al pasar el mouse */
+  max-width: 100%;  
+  height: auto;  
+  object-fit: contain;  
+  transition: transform 0.3s ease; 
 }
 
 .imagen-animada:hover {
-  transform: scale(1.05);  /* Aumenta el tamaño de la imagen al pasar el mouse */
+  transform: scale(1.05);  
 }
 
 .producto-texto {
-  text-align: center;  /* Centra el texto debajo de las imágenes */
+  text-align: center;  
   margin-top: 10px;
 }
 
 .producto {
-  border: 1px solid #ddd;  /* Añade un borde a cada producto */
+  border: 1px solid #ddd;  
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -208,16 +202,16 @@ table.table .box-posicion {
 }
 
 .btn-producto {
-  background-color: #28a745;  /* Color verde */
+  background-color: #28a745;  
   color: white;
   padding: 10px 20px;
-  border-radius: 25px;  /* Borde suave */
+  border-radius: 25px;  
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s ease, transform 0.3s ease;  /* Transiciones suaves */
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .btn-producto:hover {
-  background-color: #218838;  /* Color verde más oscuro cuando se pasa el ratón */
-  transform: scale(1.05);  /* Aumenta el tamaño ligeramente */
+  background-color: #218838;  
+  transform: scale(1.05); 
 }
