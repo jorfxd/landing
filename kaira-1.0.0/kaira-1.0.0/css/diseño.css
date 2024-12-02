@@ -141,3 +141,83 @@ html {
   
 }
 /*Din de novedades*/
+
+/*Tablas*/
+table.table .col-posicion {
+  background-color: black !important;
+  color: white !important;
+  border-color: white;
+}
+
+table.table .box-posicion {
+  background-color: rgb(238, 90, 90) !important;
+  color: white !important;
+  border-color: black;
+}
+/*Fin de las tablas*/
+
+/*Novedades en ufc*/
+.seccion-gris {
+  max-width: 1200px; /* Limita el ancho para centrado */
+  margin: 0 auto; /* Centra el contenido */
+  background-color: #f0f0f0;; /* Fondo blanco interno */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+}
+.contenedor {
+  background-color: #f0f0f0; /* Fondo gris */
+  padding: 20px; /* Espaciado interno */
+}
+
+/*<div class="payment-option">
+              <span>Payment Option:</span>
+              <img src="images/visa-card.png" alt="card">
+              <img src="images/paypal-card.png" alt="card">
+              <img src="images/master-card.png" alt="card">
+            </div>
+          </div>*/
+
+/*tienda*/
+#tienda {
+  background-color:gray;
+  padding-top: 20px;
+}
+
+.imagen-animada {
+  max-width: 100%;  /* La imagen no puede exceder el ancho del contenedor */
+  height: auto;  /* Mantiene la relación de aspecto de la imagen */
+  object-fit: contain;  /* Hace que la imagen se ajuste sin recortarse ni deformarse */
+  transition: transform 0.3s ease;  /* Animación suave al pasar el mouse */
+}
+
+.imagen-animada:hover {
+  transform: scale(1.05);  /* Aumenta el tamaño de la imagen al pasar el mouse */
+}
+
+.producto-texto {
+  text-align: center;  /* Centra el texto debajo de las imágenes */
+  margin-top: 10px;
+}
+
+.producto {
+  border: 1px solid #ddd;  /* Añade un borde a cada producto */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color:white;
+}
+
+.btn-producto {
+  background-color: #28a745;  /* Color verde */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;  /* Borde suave */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;  /* Transiciones suaves */
+}
+
+.btn-producto:hover {
+  background-color: #218838;  /* Color verde más oscuro cuando se pasa el ratón */
+  transform: scale(1.05);  /* Aumenta el tamaño ligeramente */
+}

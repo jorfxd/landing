@@ -279,13 +279,13 @@
                   <a class="nav-link" href="#Novedades" id="dropdownShop">Novedades</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" id="dropdownBlog">Noticias</a>
+                  <a class="nav-link" href="#Ranking" id="dropdownBlog">Ranking</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" id="dropdownPages">Tienda</a>
+                  <a class="nav-link" href="#tienda" id="dropdownPages">Tienda</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Paginas oficiales</a>
+                  <a class="nav-link active" href="#oficial">Paginas oficiales</a>
                 </li>
               </ul>
             </div>
@@ -365,7 +365,7 @@
                 <use xlink:href="#play"></use>
               </svg>
               <h1 id="textito">McGregor Vs. Khabib</h1>
-              <p id="tilin">No te pierdas la pelea:</p>
+              
             </a>
           </div>
         </div>
@@ -500,108 +500,115 @@
       <div class="container">
         <h2>Ranking</h2>
         <p> Lo siguiente es un top 5 de mejores peleadores de todos lo tiempos
-          en la categoria de boxeo como en artes marciales mixtas.</p>
+          en la categoria de Libra por libra tanto en el boxeo como en artes marciales mixtas.</p>
         <hr style="border: 1px solid black; margin: 20px 0;">
 
 
         <!-- Tabla De Boxeo -->
-        <h2 class="custom-boxing-title"
-          style="font-family: 'Gravitas One', sans-serif; font-size: 65px; color: black; text-align: center;">
-          Boxing
-        </h2>
-        <div class="Tablas">
-          <table class="table table-bordered text-center"
-            style="width: 100%; margin-bottom: 20px; color:black; border-color: black;">
-            <thead>
-              <tr>
-                <th>Posicion</th>
-                <th>Nombre</th>
-                <th>Record</th>
-                <th>Pais</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>#1</td>
-                <td>Sugar Ray Robinson</td>
-                <td>173–19–6 (108 KO)</td>
-                <td>Estados unidos</td>
-              </tr>
-              <tr>
-                <td>#2</td>
-                <td>Muhammad Ali</td>
-                <td>56–5–0 (37 KO)</td>
-                <td>Estados Unidos</td>
-              </tr>
-              <tr>
-                <td>#3</td>
-                <td>Roberto Duran</td>
-                <td>103–16–0 (70 KO)</td>
-                <td>Panamá</td>
-              </tr>
-              <tr>
-                <td>#4</td>
-                <td>Willie Peep</td>
-                <td>229–11–1 (65 KO)</td>
-                <td>Estados Unidos</td>
-              </tr>
-              <tr>
-                <td>#5</td>
-                <td>Sugar Ray Leonard</td>
-                <td>36–3–1 (25 KO)</td>
-                <td>Estados Unidos</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <div class="contenedor">
+          <div class="seccion-gris">
+            <!-- Título de la sección -->
+            <h2 class="custom-boxing-title"
+              style="font-family: 'Gravitas One', sans-serif; font-size: 65px; color: black; text-align: center;">
+              Boxing
+            </h2>
 
-        <!-- Contenido de imágenes -->
-        <div class="open-up" data-aos="zoom-out">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="cat-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="index.html" class="category-link">
-                    <img src="https://i.pinimg.com/564x/5a/d4/e5/5ad4e53e00bb2eaf146484d0b73c903f.jpg" alt="categories"
-                      class="product-image img-fluid">
-                  </a>
-                </div>
-                <div class="category-content text-center">
-                  <div class="product-button">
-                    <a href="index.html" class="btn btn-common text-uppercase">Sugar Ray Robinson</a>
-                  </div>
-                </div>
-              </div>
+            <!-- Tabla de posiciones -->
+            <div class="Tablas">
+              <table class="table table-bordered text-center"
+                style="width: 100%; margin-bottom: 20px; color:black; border-color: black;">
+                <thead>
+                  <tr>
+                    <th class="box-posicion">Posicion</th>
+                    <th class="box-posicion">Nombre</th>
+                    <th class="box-posicion">Record</th>
+                    <th class="box-posicion">Pais</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1</td>
+                    <td>Sugar Ray Robinson</td>
+                    <td>173–19–6 (108 KO)</td>
+                    <td>Estados Unidos</td>
+                  </tr>
+                  <tr>
+                    <td>#2</td>
+                    <td>Muhammad Ali</td>
+                    <td>56–5–0 (37 KO)</td>
+                    <td>Estados Unidos</td>
+                  </tr>
+                  <tr>
+                    <td>#3</td>
+                    <td>Roberto Duran</td>
+                    <td>103–16–0 (70 KO)</td>
+                    <td>Panamá</td>
+                  </tr>
+                  <tr>
+                    <td>#4</td>
+                    <td>Willie Peep</td>
+                    <td>229–11–1 (65 KO)</td>
+                    <td>Estados Unidos</td>
+                  </tr>
+                  <tr>
+                    <td>#5</td>
+                    <td>Sugar Ray Leonard</td>
+                    <td>36–3–1 (25 KO)</td>
+                    <td>Estados Unidos</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <div class="col-md-4">
-              <div class="cat-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="index.html" class="category-link">
-                    <img src="https://neilleifer.com/cdn/shop/products/1022.jpg?v=1658841620" alt="categories"
-                      class="product-image img-fluid">
-                  </a>
-                </div>
-                <div class="category-content text-center">
-                  <div class="product-button">
-                    <a href="index.html" class="btn btn-common text-uppercase">Muhammad ali vs Frazier</a>
+            <!-- Contenido de imágenes -->
+            <div class="open-up" data-aos="zoom-out">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="cat-item image-zoom-effect">
+                    <div class="image-holder">
+                      <a href="index.html" class="category-link">
+                        <img src="https://i.pinimg.com/564x/5a/d4/e5/5ad4e53e00bb2eaf146484d0b73c903f.jpg"
+                          alt="Sugar Ray Robinson" class="product-image img-fluid">
+                      </a>
+                    </div>
+                    <div class="category-content text-center">
+                      <div class="product-button">
+                        <a href="index.html" class="btn btn-common text-uppercase">Sugar Ray Robinson</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <div class="col-md-4">
-              <div class="cat-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="index.html" class="category-link">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/3/30/Sugar_Ray_Leonard%2C_Roberto_Duran_posing.jpg"
-                      alt="categories" class="product-image img-fluid">
-                  </a>
+                <div class="col-md-4">
+                  <div class="cat-item image-zoom-effect">
+                    <div class="image-holder">
+                      <a href="index.html" class="category-link">
+                        <img src="https://neilleifer.com/cdn/shop/products/1022.jpg?v=1658841620"
+                          alt="Muhammad Ali vs Frazier" class="product-image img-fluid">
+                      </a>
+                    </div>
+                    <div class="category-content text-center">
+                      <div class="product-button">
+                        <a href="index.html" class="btn btn-common text-uppercase">Muhammad Ali vs Frazier</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="category-content text-center">
-                  <div class="product-button">
-                    <a href="index.html" class="btn btn-common text-uppercase">Duran vs Leonard</a>
+
+                <div class="col-md-4">
+                  <div class="cat-item image-zoom-effect">
+                    <div class="image-holder">
+                      <a href="index.html" class="category-link">
+                        <img
+                          src="https://upload.wikimedia.org/wikipedia/commons/3/30/Sugar_Ray_Leonard%2C_Roberto_Duran_posing.jpg"
+                          alt="Duran vs Leonard" class="product-image img-fluid">
+                      </a>
+                    </div>
+                    <div class="category-content text-center">
+                      <div class="product-button">
+                        <a href="index.html" class="btn btn-common text-uppercase">Duran vs Leonard</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -612,103 +619,107 @@
 
 
         <!-- Tabla De UFC -->
-        <img src="images/UFCLogo.png" alt="Logo de la UFC"
-          style="display: block; margin: 0 auto; height: 100px; padding: 25px;">
-        <div class="Tablas">
-          <table class="table table-bordered text-center"
-            style="width: 100%; margin-bottom: 20px; color:black; border-color: black;">
-            <thead>
-              <tr>
-                <th>Posicion</th>
-                <th>Nombre</th>
-                <th>Record</th>
-                <th>Pais</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>#1</td>
-                <td>Islam Makhachev</td>
-                <td>26-1-0</td>
-                <td>Rusia</td>
-              </tr>
-              <tr>
-                <td>#2</td>
-                <td>Jon Jones</td>
-                <td>28-1-1(11 K.O)</td>
-                <td>Estados Unidos</td>
-              </tr>
-              <tr>
-                <td>#3</td>
-                <td>Alex Pereira</td>
-                <td>12-2-0</td>
-                <td>Brasil</td>
-              </tr>
-              <tr>
-                <td>#4</td>
-                <td>Ilia Topuria</td>
-                <td>16-0-0</td>
-                <td>España</td>
-              </tr>
-              <tr>
-                <td>#5</td>
-                <td>Belal Muhammad</td>
-                <td>24-3-0</td>
-                <td>Estados Unidos</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Contenido de imágenes -->
-        <div class="open-up" data-aos="zoom-out">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="cat-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="index.html" class="category-link">
-                    <img
-                      src="https://dmxg5wxfqgb4u.cloudfront.net/styles/card_advance_small_280x356/s3/2024-11/11182024-jon-jones-UFC-309-GettyImages-2185190054.jpeg?itok=L4lKxfU7"
-                      alt="Imagen de Jon Jones" class="product-image img-fluid">
-                  </a>
-                </div>
-                <div class="category-content text-center">
-                  <div class="product-button">
-                    <a href="index.html" class="btn btn-common text-uppercase">Jon Jones</a>
-                  </div>
-                </div>
-              </div>
+        <div class="contenedor ">
+          <div class="seccion-gris">
+            <!-- Tabla y contenido de imágenes -->
+            <img src="images/UFCLogo.png" alt="Logo de la UFC"
+              style="display: block; margin: 0 auto; height: 100px; padding: 25px;">
+            <div class="Tablas">
+              <table class="table table-bordered text-center"
+                style="width: 100%; margin-bottom: 20px; color:black; border-color: black;">
+                <thead>
+                  <tr>
+                    <th class="col-posicion">Posicion</th>
+                    <th class="col-posicion">Nombre</th>
+                    <th class="col-posicion">Record</th>
+                    <th class="col-posicion">Pais</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1</td>
+                    <td>Islam Makhachev</td>
+                    <td>26-1-0</td>
+                    <td>Rusia</td>
+                  </tr>
+                  <tr>
+                    <td>#2</td>
+                    <td>Jon Jones</td>
+                    <td>28-1-1(11 K.O)</td>
+                    <td>Estados Unidos</td>
+                  </tr>
+                  <tr>
+                    <td>#3</td>
+                    <td>Alex Pereira</td>
+                    <td>12-2-0</td>
+                    <td>Brasil</td>
+                  </tr>
+                  <tr>
+                    <td>#4</td>
+                    <td>Ilia Topuria</td>
+                    <td>16-0-0</td>
+                    <td>España</td>
+                  </tr>
+                  <tr>
+                    <td>#5</td>
+                    <td>Belal Muhammad</td>
+                    <td>24-3-0</td>
+                    <td>Estados Unidos</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <div class="col-md-4">
-              <div class="cat-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="index.html" class="category-link">
-                    <img
-                      src="https://dmxg5wxfqgb4u.cloudfront.net/styles/card_advance_small_280x356/s3/2024-10/102824-Ilia-Topuria-Celebrates-GettyImages-2181235132.jpg?itok=49CSDvUV"
-                      alt="Imagen de Ilita topuria" class="product-image img-fluid">
-                  </a>
-                </div>
-                <div class="category-content text-center">
-                  <div class="product-button">
-                    <a href="index.html" class="btn btn-common text-uppercase">Ilia Topuria</a>
+            <div class="open-up" data-aos="zoom-out">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="cat-item image-zoom-effect">
+                    <div class="image-holder">
+                      <a href="index.html" class="category-link">
+                        <img
+                          src="https://dmxg5wxfqgb4u.cloudfront.net/styles/card_advance_small_280x356/s3/2024-11/11182024-jon-jones-UFC-309-GettyImages-2185190054.jpeg?itok=L4lKxfU7"
+                          alt="Imagen de Jon Jones" class="product-image img-fluid">
+                      </a>
+                    </div>
+                    <div class="category-content text-center">
+                      <div class="product-button">
+                        <a href="index.html" class="btn btn-common text-uppercase">Jon Jones</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            <div class="col-md-4">
-              <div class="cat-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="index.html" class="category-link">
-                    <img
-                      src="https://dmxg5wxfqgb4u.cloudfront.net/styles/card_advance_small_280x356/s3/2024-07/072724-belal-GettyImages-2164000817_0.jpg?itok=uXeBXVFi"
-                      alt="imagen de Belal Muhammad" class="product-image img-fluid">
-                  </a>
+                <div class="col-md-4">
+                  <div class="cat-item image-zoom-effect">
+                    <div class="image-holder">
+                      <a href="index.html" class="category-link">
+                        <img
+                          src="https://dmxg5wxfqgb4u.cloudfront.net/styles/card_advance_small_280x356/s3/2024-10/102824-Ilia-Topuria-Celebrates-GettyImages-2181235132.jpg?itok=49CSDvUV"
+                          alt="Imagen de Ilita topuria" class="product-image img-fluid">
+                      </a>
+                    </div>
+                    <div class="category-content text-center">
+                      <div class="product-button">
+                        <a href="index.html" class="btn btn-common text-uppercase">Ilia Topuria</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="category-content text-center">
-                  <div class="product-button">
-                    <a href="index.html" class="btn btn-common text-uppercase">Belal Muhammad</a>
+
+                <div class="col-md-4">
+                  <div class="cat-item image-zoom-effect">
+                    <div class="image-holder">
+                      <a href="index.html" class="category-link">
+                        <img
+                          src="https://dmxg5wxfqgb4u.cloudfront.net/styles/card_advance_small_280x356/s3/2024-07/072724-belal-GettyImages-2164000817_0.jpg?itok=uXeBXVFi"
+                          alt="imagen de Belal Muhammad" class="product-image img-fluid">
+                      </a>
+                    </div>
+                    <div class="category-content text-center">
+                      <div class="product-button">
+                        <a href="index.html" class="btn btn-common text-uppercase">Belal Muhammad</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -721,744 +732,206 @@
     </section>
   </section>
 
-  <section id="new-arrival" class="new-arrival product-carousel py-5 position-relative overflow-hidden">
+  <!--Tienda-->
+  <section id="tienda">
     <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-        <h4 class="text-uppercase">Tienda</h4>
-        <a href="index.html" class="btn-link">View All Products</a>
-      </div>
-      <div class="swiper product-swiper open-up" data-aos="zoom-out">
-        <div class="swiper-wrapper d-flex">
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/product-item-1.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="element-title text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$95.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/product-item-2.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Baggy Shirt</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$55.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/product-item-3.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$65.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/product-item-4.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Crop sweater</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$50.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/product-item-10.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Crop sweater</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-left"></use>
-        </svg></div>
-      <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-right"></use>
-        </svg></div>
-    </div>
-  </section>
-
-  <section id="best-sellers" class="best-sellers product-carousel py-5 position-relative overflow-hidden">
-    <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-        <h4 class="text-uppercase">Best Selling Items</h4>
-        <a href="index.html" class="btn-link">View All Products</a>
-      </div>
-      <div class="swiper product-swiper open-up" data-aos="zoom-out">
-        <div class="swiper-wrapper d-flex">
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-4.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$95.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-3.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Baggy Shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$55.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-5.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$65.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-6.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Handmade crop sweater</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$50.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-9.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-10.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-left"></use>
-        </svg></div>
-      <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-right"></use>
-        </svg></div>
-    </div>
-  </section>
-
-
-
-  <section class="testimonials py-5 bg-light">
-    <div class="section-header text-center mt-5">
-      <h3 class="section-title">WE LOVE GOOD COMPLIMENT</h3>
-    </div>
-    <div class="swiper testimonial-swiper overflow-hidden my-5">
-      <div class="swiper-wrapper d-flex">
-        <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>“More than expected crazy soft, flexible and best fitted white simple denim shirt.”</p>
-              <div class="review-title text-uppercase">casual way</div>
-            </blockquote>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>“Best fitted white denim shirt more than expected crazy soft, flexible</p>
-              <div class="review-title text-uppercase">uptop</div>
-            </blockquote>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>“Best fitted white denim shirt more white denim than expected flexible crazy soft.”</p>
-              <div class="review-title text-uppercase">Denim craze</div>
-            </blockquote>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>“Best fitted white denim shirt more than expected crazy soft, flexible</p>
-              <div class="review-title text-uppercase">uptop</div>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
-  </section>
-
-  <section id="related-products" class="related-products product-carousel py-5 position-relative overflow-hidden">
-    <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-        <h4 class="text-uppercase">You May Also Like</h4>
-        <a href="index.html" class="btn-link">View All Products</a>
-      </div>
-      <div class="swiper product-swiper open-up" data-aos="zoom-out">
-        <div class="swiper-wrapper d-flex">
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-5.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$95.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-6.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Baggy Shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$55.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-7.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$65.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-8.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Handmade crop sweater</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$50.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-1.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Handmade crop sweater</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-left"></use>
-        </svg></div>
-      <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-right"></use>
-        </svg></div>
-    </div>
-  </section>
-
-  <section class="blog py-5">
-    <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-        <h4 class="text-uppercase">Read Blog Posts</h4>
-        <a href="index.html" class="btn-link">View All</a>
-      </div>
+      <h2 class="text-center" style="font-weight: bold;">Tienda</h2>
       <div class="row">
-        <div class="col-md-4">
-          <article class="post-item">
-            <div class="post-image">
-              <a href="index.html">
-                <img src="images/post-image1.jpg" alt="image" class="post-grid-image img-fluid">
-              </a>
+        <!-- Producto 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="producto">
+            <div class="producto-imagen">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR46Le4NGRQgxCV2ogQJaZkB1IMX2b6CvVYNA&s"
+              alt="Guantes imagen" class="img-fluid imagen-animada" style="height: 300px;">
             </div>
-            <div class="post-content d-flex flex-wrap gap-2 my-3">
-              <div class="post-meta text-uppercase fs-6 text-secondary">
-                <span class="post-category">Fashion /</span>
-                <span class="meta-day"> jul 11, 2022</span>
+            <div class="producto-texto">
+              <h2>Guantes</h2>
+              <!-- Campo de cantidad -->
+              <div class="cantidad">
+                <label for="cantidadGuantes">Cantidad:</label>
+                <input type="number" id="cantidadGuantes" value="1" min="1" style="width: 60px; margin-bottom: 10px;">
               </div>
-              <h5 class="post-title text-uppercase">
-                <a href="index.html">How to look outstanding in pastel</a>
-              </h5>
-              <p>Dignissim lacus,turpis ut suspendisse vel tellus.Turpis purus,gravida orci,fringilla...</p>
+              <button class="btn btn-producto">Comprar</button>
             </div>
-          </article>
+          </div>
         </div>
-        <div class="col-md-4">
-          <article class="post-item">
-            <div class="post-image">
-              <a href="index.html">
-                <img src="images/post-image2.jpg" alt="image" class="post-grid-image img-fluid">
-              </a>
+  
+        <!-- Producto 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="producto">
+            <div class="producto-imagen">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5riiSa2QfXyA6PszY6q60BX9rXGBJdaikw&s"
+              alt="Vendas" class="img-fluid imagen-animada" style="height: 300px;">
             </div>
-            <div class="post-content d-flex flex-wrap gap-2 my-3">
-              <div class="post-meta text-uppercase fs-6 text-secondary">
-                <span class="post-category">Fashion /</span>
-                <span class="meta-day"> jul 11, 2022</span>
+            <div class="producto-texto">
+              <h2>Vendas</h2>
+              <!-- Campo de cantidad -->
+              <div class="cantidad">
+                <label for="cantidadVendas">Cantidad:</label>
+                <input type="number" id="cantidadVendas" value="1" min="1" style="width: 60px; margin-bottom: 10px;">
               </div>
-              <h5 class="post-title text-uppercase">
-                <a href="index.html">Top 10 fashion trend for summer</a>
-              </h5>
-              <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel tellus...</p>
+              <button class="btn btn-producto">Comprar</button>
             </div>
-          </article>
+          </div>
         </div>
-        <div class="col-md-4">
-          <article class="post-item">
-            <div class="post-image">
-              <a href="index.html">
-                <img src="images/post-image3.jpg" alt="image" class="post-grid-image img-fluid">
-              </a>
+  
+        <!-- Producto 3 -->
+        <div class="col-md-6 mb-4">
+          <div class="producto">
+            <div class="producto-imagen">
+              <img src="https://http2.mlstatic.com/D_NQ_NP_741506-MLU72997334980_112023-O.webp"
+              alt="Manoplas imagen" class="img-fluid imagen-animada" style="height: 300px;">
             </div>
-            <div class="post-content d-flex flex-wrap gap-2 my-3">
-              <div class="post-meta text-uppercase fs-6 text-secondary">
-                <span class="post-category">Fashion /</span>
-                <span class="meta-day"> jul 11, 2022</span>
+            <div class="producto-texto">
+              <h2>Manoplas</h2>
+              <!-- Campo de cantidad -->
+              <div class="cantidad">
+                <label for="cantidadManoplas">Cantidad:</label>
+                <input type="number" id="cantidadManoplas" value="1" min="1" style="width: 60px; margin-bottom: 10px;">
               </div>
-              <h5 class="post-title text-uppercase">
-                <a href="index.html">Crazy fashion with unique moment</a>
-              </h5>
-              <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel tellus...</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="logo-bar py-5 my-5">
-    <div class="container">
-      <div class="row">
-        <div class="logo-content d-flex flex-wrap justify-content-between">
-          <img src="images/logo1.png" alt="logo" class="logo-image img-fluid">
-          <img src="images/logo2.png" alt="logo" class="logo-image img-fluid">
-          <img src="images/logo3.png" alt="logo" class="logo-image img-fluid">
-          <img src="images/logo4.png" alt="logo" class="logo-image img-fluid">
-          <img src="images/logo5.png" alt="logo" class="logo-image img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="newsletter bg-light" style="background: url(images/pattern-bg.png) no-repeat;">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 py-5 my-5">
-          <div class="subscribe-header text-center pb-3">
-            <h3 class="section-title text-uppercase">Sign Up for our newsletter</h3>
-          </div>
-          <form id="form" class="d-flex flex-wrap gap-2">
-            <input id="algo" type="text" name="email" placeholder="Your Email Addresss"
-              class="form-control form-control-lg">
-            <button id="botonaso" class="btn btn-dark btn-lg text-uppercase w-100">Sign Up</button>
-          </form>
-        </div>
-        <!-- Suscribers - START -->
-        <div class="col-md-4 py-5 my-5">
-          <h4 class="element-title text-capitalize my-3">Subscribers per Day</h4>
-          <table class="table table-hover table-light table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Day</th>
-                <th scope="col">Subscribers</th>
-              </tr>
-            </thead>
-            <tbody id="subscribers">
-
-            </tbody>
-          </table>
-        </div>
-        <!-- Suscribers - END -->
-      </div>
-    </div>
-  </section>
-
-  <section class="instagram position-relative">
-    <div class="d-flex justify-content-center w-100 position-absolute bottom-0 z-1">
-      <a href="https://www.instagram.com/templatesjungle/" class="btn btn-dark px-5">Follow us on Instagram</a>
-    </div>
-    <div class="row g-0">
-      <div class="col-6 col-sm-4 col-md-2">
-        <div class="insta-item">
-          <a href="https://www.instagram.com/templatesjungle/" target="_blank">
-            <img src="images/insta-item1.jpg" alt="instagram" class="insta-image img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-6 col-sm-4 col-md-2">
-        <div class="insta-item">
-          <a href="https://www.instagram.com/templatesjungle/" target="_blank">
-            <img src="images/insta-item2.jpg" alt="instagram" class="insta-image img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-6 col-sm-4 col-md-2">
-        <div class="insta-item">
-          <a href="https://www.instagram.com/templatesjungle/" target="_blank">
-            <img src="images/insta-item3.jpg" alt="instagram" class="insta-image img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-6 col-sm-4 col-md-2">
-        <div class="insta-item">
-          <a href="https://www.instagram.com/templatesjungle/" target="_blank">
-            <img src="images/insta-item4.jpg" alt="instagram" class="insta-image img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-6 col-sm-4 col-md-2">
-        <div class="insta-item">
-          <a href="https://www.instagram.com/templatesjungle/" target="_blank">
-            <img src="images/insta-item5.jpg" alt="instagram" class="insta-image img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-6 col-sm-4 col-md-2">
-        <div class="insta-item">
-          <a href="https://www.instagram.com/templatesjungle/" target="_blank">
-            <img src="images/insta-item6.jpg" alt="instagram" class="insta-image img-fluid">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer id="footer" class="mt-5">
-    <div class="container">
-      <div class="row d-flex flex-wrap justify-content-between py-5">
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-menu footer-menu-001">
-            <div class="footer-intro mb-4">
-              <a href="index.html">
-                <img src="images/main-logo.png" alt="logo">
-              </a>
-            </div>
-            <p>Gravida massa volutpat aenean odio. Amet, turpis erat nullam fringilla elementum diam in. Nisi, purus
-              vitae, ultrices nunc. Sit ac sit suscipit hendrerit.</p>
-            <div class="social-links">
-              <ul class="list-unstyled d-flex flex-wrap gap-3">
-                <li>
-                  <a href="#" class="text-secondary">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="#facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-secondary">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="#twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-secondary">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="#youtube"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-secondary">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="#pinterest"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-secondary">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="#instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <button class="btn btn-producto">Comprar</button>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-menu footer-menu-002">
-            <h5 class="widget-title text-uppercase mb-4">Quick Links</h5>
-            <ul class="menu-list list-unstyled text-uppercase border-animation-left fs-6">
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">Home</a>
-              </li>
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">About</a>
-              </li>
-              <li class="menu-item">
-                <a href="blog.html" class="item-anchor">Services</a>
-              </li>
-              <li class="menu-item">
-                <a href="styles.html" class="item-anchor">Single item</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-menu footer-menu-003">
-            <h5 class="widget-title text-uppercase mb-4">Help & Info</h5>
-            <ul class="menu-list list-unstyled text-uppercase border-animation-left fs-6">
-              <li class="menu-item">
-                <a href="#" class="item-anchor">Track Your Order</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">Returns + Exchanges</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">Shipping + Delivery</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">Contact Us</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">Find us easy</a>
-              </li>
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">Faqs</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-menu footer-menu-004 border-animation-left">
-            <h5 class="widget-title text-uppercase mb-4">Contact Us</h5>
-            <p>Do you have any questions or suggestions? <a href="mailto:contact@yourcompany.com"
-                class="item-anchor">contact@yourcompany.com</a></p>
-            <p>Do you need support? Give us a call. <a href="tel:+43 720 11 52 78" class="item-anchor">+43 720 11 52
-                78</a>
-            </p>
+  
+        <!-- Producto 4 -->
+        <div class="col-md-6 mb-4">
+          <div class="producto">
+            <div class="producto-imagen">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2B8DlhRiKWzCsJYIofIxvOjNRbAi3JKKjlQ&s"
+              alt="Saco" class="img-fluid imagen-animada" style="height: 300px;">
+            </div>
+            <div class="producto-texto">
+              <h2>Saco</h2>
+              <!-- Campo de cantidad -->
+              <div class="cantidad">
+                <label for="cantidadSaco">Cantidad:</label>
+                <input type="number" id="cantidadSaco" value="1" min="1" style="width: 60px; margin-bottom: 10px;">
+              </div>
+              <button class="btn btn-producto">Comprar</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="border-top py-4">
+  </section>
+
+    <!--El cuestionario-->
+    <section class="newsletter bg-black">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 py-5 my-5">
+            <div class="subscribe-header text-center pb-3">
+              <h3 class="section-title text-uppercase text-white">Registrate Para estar Actualizado</h3>
+            </div>
+            <form id="form" class="d-flex flex-wrap gap-2" style="margin-bottom: 60px;">
+              <input id="algo" type="text" name="nombre" placeholder="Nombre" class="form-control form-control-lg">
+              <input id="algo" type="text" name="Edad" placeholder="Edad (Mayor a 18 años)"
+                class="form-control form-control-lg">
+
+              <input id="algo" type="text" name="email" placeholder="Direccion de email"
+                class="form-control form-control-lg">
+              <button id="botonaso" class="btn btn-dark btn-lg text-uppercase w-100">Registrarse</button>
+            </form>
+            <!--Tabla-->
+
+            <h4 class="element-title text-capitalize my-3 text-white text-center">Ultimas Suscripciones</h4>
+            <table class="table table-hover border-color">
+              <thead>
+                <tr>
+                  <th scope="col" class="text-white">#</th>
+                  <th scope="col" class="text-white">Day</th>
+                  <th scope="col" class="text-white">Subscribers</th>
+                </tr>
+              </thead>
+              <tbody id="subscribers">
+
+              </tbody>
+            </table>
+          </div>
+          
+          <div class="col-md-4 py-5 my-5">
+            <img
+              src="https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/VERA_MARLON_L_08-03.png?itok=R1Qh-dwJ"
+              alt="chito vera peleador">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="testimonials py-5 bg-light" id="oficial">
+      <div class="section-header text-center mt-5">
+        <h2 style="font-family: 'Gravitas One', sans-serif; font-size: 40px;">Paginas Oficiales</h2>
+      </div>
+      <div class="swiper testimonial-swiper overflow-hidden my-5">
+        <div class="swiper-wrapper d-flex">
+          <div class="swiper-slide">
+            <div class="testimonial-item text-center">
+              <blockquote>
+                <a href="https://www.ufcespanol.com/">UFC (Ultimate Fighting Championship)</a> 
+              </blockquote>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-item text-center">
+              <blockquote>
+                <a href="https://www.wbaboxing.com/">WBA (World Boxing Association)</a> 
+              </blockquote>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-item text-center">
+              <blockquote>
+                <a href="https://wbcboxing.com/en/">WBC (World Boxing Council)</a> 
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
+    </section>
+
+    
+
+    <section class="logo-bar py-5 my-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 d-flex flex-wrap">
-            <div class="shipping">
-              <span>We ship with:</span>
-              <img src="images/arct-icon.png" alt="icon">
-              <img src="images/dhl-logo.png" alt="icon">
-            </div>
-            <div class="payment-option">
-              <span>Payment Option:</span>
-              <img src="images/visa-card.png" alt="card">
-              <img src="images/paypal-card.png" alt="card">
-              <img src="images/master-card.png" alt="card">
-            </div>
-          </div>
-          <div class="col-md-6 text-end">
-            <p>© Copyright 2022 Kaira. All rights reserved. Design by <a href="https://templatesjungle.com"
-                target="_blank">TemplatesJungle</a> Distribution By <a href="https://themewagon.com"
-                target="blank">ThemeWagon</a></p>
+          <div class="logo-content d-flex flex-wrap justify-content-between">
+            <img src="images/UFCLogo.png" alt="logo" class="logo-image img-fluid" style="height: 80px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvThecMcKELmWkpUYa4Gav0p3KjeViDWO52g&s"
+             alt="logo" class="logo-image img-fluid" style="height: 150px;">
+            <img src="https://img.freepik.com/vector-premium/logotipo-wbc-letra-wbc-iniciales-logotipo-wbc-vinculado-circulo-monograma-mayuscula-tipografia-wbc-negocios-tecnologicos-marcas-inmobiliarias_229120-79287.jpg?w=360" 
+            alt="logo" class="logo-image img-fluid" style="height: 150px;">
           </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/SmoothScroll.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="js/script.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/mio.js"></script>
+    </section>
+
+
+    <footer id="footer" class="mt-5" style="background-color: black; color: white; text-align: center;">
+      <div class="border-top py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>© Copyright 2024 Jorge @. All rights reserved. Design by Jorge Arroba.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mio.js"></script>
 </body>
 
 </html>
